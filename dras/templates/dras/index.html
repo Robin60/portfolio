@@ -1,0 +1,41 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <title>Welcome Dras!</title>
+
+     <link rel="stylesheet"
+	   href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	   crossorigin="anonymous">
+</head>
+<body>
+    <header class="container">
+        <div class="row text-center justify-content-center">
+            <div class="col">
+                <h5 class="display-4"> <b>Diabetes Risk Assessment System - DRAS</b></h5>
+            </div>
+        </div>
+    </header>
+    <main class="container mt-4 mb-4">
+	    <div class="image-container">	
+	 	    <img src="{% static "dras/diabete2.png" %}" alt="DRAS" class="mw-100">
+		    <img src="{% static "dras/diabete1.png" %}" alt="DRAS" class="mw-100">
+	    </div>
+    </main>
+    <p><a href="https://dras.onrender.com/">Click here to have your risk assessment at Dras</a></p>
+    <script>
+           var j = jQuery.noConflict();
+           j(document).ready(function() {
+                j('header.container h5').css('color', 'blue');
+            });
+    </script>
+</body>
+</html>
+	             

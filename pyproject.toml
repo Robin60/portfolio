@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "portfolio"
+version = "0.1.0"
+description = ""
+authors = ["Robin60 <owinorobin05@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
