@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-m^s)y5r5yd-l(g7h0_ns=$%sw4!f&%*kd(m8=gji3@r_z2xuq!'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-m^s)y5r5yd-l(g7h0_ns=$%sw4!f&%*kd(m8=gji3@r_z2xuq!')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default ='postgresql://dras_db_7ke9_user:rjbBj2JXRshov9Kkbvpz8snTKEt6MmDN@dpg-ckn4olv83ejs739li02g-a.oregon-postgres.render.com/dras_db_7ke9'
+        default ='postgresql://dras_db_7ke9_user:rjbBj2JXRshov9Kkbvpz8snTKEt6MmDN@dpg-ckn4olv83ejs739li02g-a.oregon-postgres.render.com/dras_db_7ke9',
         conn_max_age=600
         )
 }
